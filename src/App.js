@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Some heading</h1>
-        <Router basename="/pl_frontend">
+        <Router basename="/test_cra">
           <Routes>
             <Route exact path="/login" element={<LoginView />} />
           </Routes>
