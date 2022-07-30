@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learning React
-        </a>
-      </header>
-    </div>
-  );
+// Import components
+import LoginView from  "./components/login/loginView"
+
+
+
+// Import styles
+import "./App.css";
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      posts: [],
+      loggedIn: false,
+    };
+  }
+  async componentDidMount() {}
+  render() {
+    return (
+      <div className="App">
+        <h1>Some heading</h1>
+        <Router>
+          <Routes basename="/pl_frontend">
+            <Route exact path="/login" element={<LoginView />} />
+          </Routes>
+        </Router>
+      </div>
+    );
+  }
 }
 
 export default App;
