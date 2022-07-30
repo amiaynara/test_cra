@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 // Import components
-import LoginView from  "./components/login/loginView"
+//import LoginView from  "./components/login/loginView"
 
 
 
@@ -27,6 +27,10 @@ class App extends Component {
       <div className="App">
         <h1>Some heading</h1>
         <Router>
+          <Routes>
+            <Route>
+            <Route>
+          <Routes>
         </Router>
       </div>
     );
