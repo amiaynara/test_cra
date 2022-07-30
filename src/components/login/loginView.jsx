@@ -129,7 +129,6 @@ class LoginView extends Component {
   }
 
   async _loadWalletData() {
-    const userId = window.localStorage.getItem("userId");
     console.log('Loading data...');
   }
 }
