@@ -1,6 +1,5 @@
 {
-  "homepage": "https://amiaynara.github.io/test_cra",
-  "name": "test_cra",
+  "name": "diff",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

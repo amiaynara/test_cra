@@ -1,9 +1,4 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
 
 // Import components
 //import LoginView from  "./components/login/loginView"
@@ -25,13 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Some heading</h1>
-        <Router>
-          <Routes>
-            <Route>
-            </Route>
-          </Routes>
-        </Router>
+        <h1>Some asdfheading</h1>
       </div>
     );
   }
