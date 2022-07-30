@@ -45,14 +45,6 @@ class LoginView extends Component {
     return (
       <Box paddingTop={10}>
         <div>
-          <Player
-            ref={this.player} // set the ref to your class instance
-            autoplay={false}
-            loop={true}
-            controls={true}
-            src={lottie}
-            style={{ height: "300px", width: "300px" }}
-          ></Player>
           
         </div>{" "}
         <Grid container justifyContent="center" rowSpacing={1}>
