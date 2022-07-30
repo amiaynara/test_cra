@@ -29,8 +29,8 @@ class App extends Component {
         <Router>
           <Routes>
             <Route>
-            <Route>
-          <Routes>
+            </Route>
+          </Routes>
         </Router>
       </div>
     );
