@@ -27,7 +27,7 @@ class App extends Component {
       <div className="App">
         <h1>Some heading</h1>
         <Router>
-          <Routes basename="/pl_frontend">
+          <Routes>
             <Route exact path="/login" element={<LoginView />} />
           </Routes>
         </Router>
